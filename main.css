@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* full page background */
+.bg {
+    background-image: url("bg.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Center text */
+.headtext{
+	text-align: center;
+	color:white;
+	font-family: 'Roboto';
+	src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOiCnqEu92Fr1Mu51QrEzMdL_nz.woff2) format('woff2');
+}
+
+
+
+
+/* Button */
+.transparent_btn {
+	position: absolute;
+	right: 150px;
+	top: 75px;
+	padding-right: 150px;
+	display: inline-block;
+	padding: 10px 25px;
+	color: #FFF;
+	border: 3px solid #FFF;
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 120%;
+	background-color: rgba(255,255,255, 0);
+	border-radius: 0px;
+	-webkit-transition: background-color 300ms ease;
+	-moz-transition: background-color 300ms ease;
+	transition: background-color 300ms ease;
+	cursor: pointer;
+}
+/* Button : hover*/
+.transparent_btn:hover {
+	background-color: rgba(255,255,255, 0.3);
+	color: #FFF;
+}
